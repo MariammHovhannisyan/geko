@@ -1,0 +1,124 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: #c1d6da;
+  color: #8a2572;
+}
+#site-header {
+  background: #8a2572;
+  color: #2590a8;
+  padding: 10px 24px;          
+}
+#site-header h1 {
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+#site-header nav {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px 12px;
+  border-radius: 10px;
+  display: inline-block;
+}
+#site-header nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ddebee;
+  padding: 8px 10px;
+  margin-right: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  font-size: 14px;
+}
+#site-header nav a:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+#site-header nav a[target="_blank"] {
+  color: #111827;
+  background: #fbbf24;
+  border-color: #f59e0b;
+}
+#main-content {
+  padding: 24px;
+}
+.card {
+  width: 340px;             
+  margin: 16px 0;            
+  padding: 16px;              
+  border: 2px solid #38030f; 
+  border-radius: 16px;       
+  background: #c0e6ee;
+}
+.card h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.card p {
+  margin-bottom: 12px;
+  color: #c0e6ee;
+}
+.card a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #2563eb;
+}
+.card a:hover {
+  text-decoration: underline;
+}
+.card[data-type="featured"] {
+  border-color: #38030f;
+  background: #c0e6ee;
+}
+#main-content section:last-child {
+  margin-top: 24px;
+  padding: 16px;
+  background: #c0e6ee;
+  border: 1px solid #38030f;
+  border-radius: 14px;
+  width: max-content;
+}
+#main-content section:last-child h2 {
+  margin-bottom: 12px;
+}
+form input {
+  display: block;
+  width: 320px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 2px solid #2590a8;
+  border-radius: 10px;
+  outline: none;
+  background: #c0e6ee;
+}
+form input:focus {
+  border-color: #2563eb;
+}
+form input[type="password"] {
+  border-color: #ef4444;
+  background: #c0e6ee;
+}
+form button[type="submit"] {
+  padding: 10px 14px;          
+  border: 2px solid #8a2572;   
+  border-radius: 10px;
+  background: #8a2572;
+  color: #2590a8;
+  cursor: pointer;
+}
+form button[type="submit"]:hover {
+  background: #2590a8;       
+  color: #111827;
+}
+footer {
+  margin-top: 28px;
+  padding: 16px 24px;
+  text-align: center;
+  color: #6b7280;
+}
